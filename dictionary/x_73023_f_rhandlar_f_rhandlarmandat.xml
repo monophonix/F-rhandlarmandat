@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Förhandlarmandat" max_length="40" name="x_73023_f_rhandlar_f_rhandlarmandat" type="collection"/>
+    <element extends="task" label="Förhandlarmandat" max_length="40" name="x_73023_f_rhandlar_f_rhandlarmandat" type="collection">
+        <element label="Förväntat klart datum" max_length="40" name="u_expc_expc_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vårt förväntade utfall" max_length="40" name="u_expc_expc_outcome" type="string"/>
+        <element label="Förväntad butiksöppning" max_length="40" name="u_expc_expc_store_opening" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Index" max_length="40" name="u_expc_index" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Övriga villkor" max_length="40" name="u_expc_oth_demands" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flexibilitet" max_length="40" name="u_flexibility" type="string"/>
+        <element dependent="active" dependent_on_field="active" label="Förhandlare" max_length="32" name="u_negotiator" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Förväntat klart datum" max_length="40" name="u_out_expc_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vårt förväntade utfall" max_length="40" name="u_out_expc_outcome" type="string"/>
+        <element label="Förväntad butiksöppning" max_length="40" name="u_out_expc_store_opening" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Flexibilitet" max_length="40" name="u_out_flexibility" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Index" max_length="40" name="u_out_index" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Övriga villkor" max_length="255" name="u_out_oth_demands" type="string_full_utf8"/>
+        <element label="Egen regi" max_length="40" name="u_out_own_regi" type="boolean"/>
+        <element label="Egen regi" max_length="40" name="u_own_regi" type="boolean"/>
+        <element label="Projektledare" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element label="Butiksutformare" max_length="32" name="u_store_designer" reference="sys_user" type="reference"/>
+    </element>
 </database>

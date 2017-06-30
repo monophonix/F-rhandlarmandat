@@ -10,12 +10,12 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Förhandlarmandats</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_73023_f_rhandlar_f_rhandlarmandat</name>
-        <order>100</order>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,23 +24,23 @@
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-06-30 08:59:08</sys_created_on>
+        <sys_created_on>2017-06-30 09:01:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d8861d670f233200bc9e3e4ce1050ef5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Skapa nytt</sys_name>
+        <sys_id>f91719270f233200bc9e3e4ce1050e8b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Alla</sys_name>
         <sys_overrides/>
         <sys_package display_value="Förhandlarmandat" source="x_73023_f_rhandlar">335515630f233200bc9e3e4ce1050e77</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Förhandlarmandat">335515630f233200bc9e3e4ce1050e77</sys_scope>
-        <sys_update_name>sys_app_module_d8861d670f233200bc9e3e4ce1050ef5</sys_update_name>
+        <sys_update_name>sys_app_module_f91719270f233200bc9e3e4ce1050e8b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-06-30 09:01:52</sys_updated_on>
+        <sys_updated_on>2017-06-30 09:02:05</sys_updated_on>
         <timeline_page/>
-        <title>Skapa nytt</title>
+        <title>Alla</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
