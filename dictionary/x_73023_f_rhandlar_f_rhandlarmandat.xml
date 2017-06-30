@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Förhandlarmandat" max_length="40" name="x_73023_f_rhandlar_f_rhandlarmandat" type="collection"/>
+</database>
