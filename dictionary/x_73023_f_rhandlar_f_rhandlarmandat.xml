@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Förhandlarmandat" max_length="40" name="x_73023_f_rhandlar_f_rhandlarmandat" type="collection">
+    <element audit="true" extends="task" label="Förhandlarmandat" max_length="40" name="x_73023_f_rhandlar_f_rhandlarmandat" sizeclass="7" type="collection">
         <element label="Förväntat klart datum" max_length="40" name="u_expc_expc_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Vårt förväntade utfall" max_length="40" name="u_expc_expc_outcome" type="string"/>
         <element label="Förväntad butiksöppning" max_length="40" name="u_expc_expc_store_opening" type="glide_date"/>
@@ -16,7 +16,14 @@
         <element attributes="edge_encryption_enabled=true" label="Övriga villkor" max_length="255" name="u_out_oth_demands" type="string_full_utf8"/>
         <element label="Egen regi" max_length="40" name="u_out_own_regi" type="boolean"/>
         <element label="Egen regi" max_length="40" name="u_own_regi" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Projektkod" max_length="40" name="u_project_code" type="string"/>
         <element label="Projektledare" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ombyggnad" label="Projekttyp" max_length="40" name="u_project_type" type="string">
+            <choice>
+                <element label="Ombyggnad" sequence="0" value="ombyggnad"/>
+                <element label="Nyetablering" sequence="1" value="nyetablering"/>
+            </choice>
+        </element>
         <element label="Butiksutformare" max_length="32" name="u_store_designer" reference="sys_user" type="reference"/>
     </element>
 </database>

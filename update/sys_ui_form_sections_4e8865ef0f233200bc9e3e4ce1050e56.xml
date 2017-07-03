@@ -43,6 +43,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-06-30 11:52:30</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-30 12:14:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6133c22f0f633200bc9e3e4ce1050e3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_73023_f_rhandlar_f_rhandlarmandat" name="x_73023_f_rhandlar_f_rhandlarmandat" sys_domain="global" view="Default view">4e8865ef0f233200bc9e3e4ce1050e56</sys_ui_form>
+            <sys_ui_section caption="Aktivitetslogg" display_value="Aktivitetslogg" name="x_73023_f_rhandlar_f_rhandlarmandat" sys_domain="global" view="Default view">a133c22f0f633200bc9e3e4ce1050e37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-30 12:14:28</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_73023_f_rhandlar_f_rhandlarmandat</name>
             <roles/>

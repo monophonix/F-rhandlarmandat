@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Förhandlarmandat activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_73023_f_rhandlar_f_rhandlarmandat_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-30 12:16:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f493422f0f633200bc9e3e4ce1050e11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_73023_f_rhandlar_f_rhandlarmandat_activity.fields</sys_name>
+        <sys_package display_value="Förhandlarmandat" source="x_73023_f_rhandlar">335515630f233200bc9e3e4ce1050e77</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Förhandlarmandat">335515630f233200bc9e3e4ce1050e77</sys_scope>
+        <sys_update_name>sys_properties_f493422f0f633200bc9e3e4ce1050e11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-30 12:16:02</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,comments,*Attachments*,assignment_group,u_store_designer,sys_created_on,sys_created_by,description,u_out_own_regi,u_own_regi,u_flexibility,u_out_flexibility,u_negotiator,u_expc_expc_store_opening,u_out_expc_store_opening,u_expc_expc_date,u_out_expc_date,u_expc_index,u_out_index,u_project_manager,sys_updated_by,u_expc_expc_outcome,u_out_expc_outcome,u_expc_oth_demands,u_out_oth_demands</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f493422f0f633200bc9e3e4ce1050e11"/>
+</record_update>
